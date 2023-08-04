@@ -1,0 +1,46 @@
+/* receipt */
+.receipt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5rem;
+}
+
+.receiptTxt {
+    margin-top: 2rem;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.receiptImg > img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin: 1.5rem;
+}
+
+.yesnoBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.yes, .no {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0.5rem;
+    border: none;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.no {
+    background-color: black;
+    color: white;
+}
