@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Page4() {
+function Page11() {
 
     return (
         <div className="page">
@@ -21,18 +21,22 @@ function Page4() {
             <div className="body">
                 <div className="wrapper">
                     <div className="txtWrap">
-                        <div className="text text_big">
-                            추가 옵션을 
-                            <br />
-                            선택하시겠습니까?
+                        <div className="text">
+                            결제하실 방법을 선택해주세요.
                         </div>
                     </div>
                     <div className="btnWrap">
-                        <button className="button yesBtn">
-                            예
+                        <button className="button payBtn payBtn30">
+                            결제방법
                         </button>
-                        <button className="button noBtn">
-                            아니오
+                        <button className="button payBtn payBtn50">
+                            결제방법
+                        </button>
+                        <button className="button payBtn payBtn70">
+                            결제방법
+                        </button>
+                        <button className="button payBtn">
+                            결제방법
                         </button>
                     </div>
                 </div>
@@ -41,4 +45,4 @@ function Page4() {
     )
 };
 
-export default Page4;
+export default Page11;

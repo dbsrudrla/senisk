@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Page6() {
+function Page3() {
 
     return (
         <div className="page">
@@ -22,42 +22,42 @@ function Page6() {
                 <div className="wrapper">
                     <div className="menu_bar">
                         <div className="bar_option">
-                            메뉴 - 추가옵션
+                            카테고리
                         </div>
                     </div>
                     <div className="text text_small">
-                        추가하실 옵션을 선택해주세요.
+                        드시고 싶은 메뉴를 선택해주세요.
                     </div>
                     <div className="menuWrap">
                         <div className="menu">
                             <img src="pictures.png" alt="" />
-                            <div className="menu_name">옵션</div>
-                            <div className="price">+0,000원</div>
+                            <div className="menu_name">메뉴</div>
+                            <div className="price">가격</div>
                         </div>
                         <div className="menu">
                             <img src="pictures.png" alt="" />
-                            <div className="menu_name">옵션</div>
-                            <div className="price">+0,000원</div>
+                            <div className="menu_name">메뉴</div>
+                            <div className="price">가격</div>
                         </div>
                         <div className="menu">
                             <img src="pictures.png" alt="" />
-                            <div className="menu_name">옵션</div>
-                            <div className="price">+0,000원</div>
+                            <div className="menu_name">메뉴</div>
+                            <div className="price">가격</div>
                         </div>
                         <div className="menu">
                             <img src="pictures.png" alt="" />
-                            <div className="menu_name">옵션</div>
-                            <div className="price">+0,000원</div>
+                            <div className="menu_name">메뉴</div>
+                            <div className="price">가격</div>
                         </div>
                         <div className="menu">
                             <img src="pictures.png" alt="" />
-                            <div className="menu_name">옵션</div>
-                            <div className="price">+0,000원</div>
+                            <div className="menu_name">메뉴</div>
+                            <div className="price">가격</div>
                         </div>
                         <div className="menu">
                             <img src="pictures.png" alt="" />
-                            <div className="menu_name">옵션</div>
-                            <div className="price">+0,000원</div>
+                            <div className="menu_name">메뉴</div>
+                            <div className="price">가격</div>
                         </div>
                     </div>
                 </div>
@@ -66,4 +66,4 @@ function Page6() {
     )
 };
 
-export default Page6;
+export default Page3;

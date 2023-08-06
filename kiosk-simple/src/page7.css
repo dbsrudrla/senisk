@@ -1,0 +1,31 @@
+.optionWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    flex: 1;
+}
+
+.option > img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.menu_name, .quantity {
+    text-align: center;
+    margin-top: 0.3rem;
+    font-weight: 700;
+}
+
+.menu_name {
+    font-size: 1.5rem;
+}
+
+.quantity {
+    font-size: 1.3rem;
+    background-color: #FFDB80;
+}

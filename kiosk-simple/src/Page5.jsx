@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Page4() {
+function Page5() {
 
     return (
         <div className="page">
@@ -22,17 +22,19 @@ function Page4() {
                 <div className="wrapper">
                     <div className="txtWrap">
                         <div className="text text_big">
-                            추가 옵션을 
+                            추가 옵션을
                             <br />
-                            선택하시겠습니까?
+                            기본값으로
+                            <br />
+                            담으시겠습니까?
                         </div>
                     </div>
                     <div className="btnWrap">
                         <button className="button yesBtn">
                             예
                         </button>
-                        <button className="button noBtn">
-                            아니오
+                        <button className="button pickBtn">
+                            내가 고르기
                         </button>
                     </div>
                 </div>
@@ -41,4 +43,4 @@ function Page4() {
     )
 };
 
-export default Page4;
+export default Page5;

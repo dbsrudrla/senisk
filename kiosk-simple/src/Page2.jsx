@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './page2.css';
 
 function Page2() {
 
@@ -8,12 +7,9 @@ function Page2() {
             <div className="header">
                 <div className="topWrap">
                     <button className="button arrow">
-                        <img src="left.png" alt="leftArrow" className="btnImg" />
+                        <img src="left_arrow.png" alt="leftArrow" className="btnImg" />
                     </button>
                     <div className="name">
-                        <button className="button call">
-                            <img src="call-12-regular.svg" alt="call" className="phone" />
-                        </button>
                         Hello!
                     </div>
                     <button className="button xBtn">
@@ -23,82 +19,33 @@ function Page2() {
             </div>
 
             <div className="body">
-                <div className="menu_bar">
-                    <button className="button bar_option">
-                        추천메뉴
-                    </button>
-                    <button className="button bar_option">
-                        전체
-                    </button>
-                    <button className="button bar_option">
-                        사이드메뉴
-                    </button>
-                    <button className="button bar_option">
-                        세트메뉴
-                    </button>
-                </div>
-
                 {/* menu_bar option 선택하면 색 변경 */}
-                <div className="menuWrap">
-                    <div className="menu_scroll">
-                        <div className="menu">
-                            <img src="img/salad.jpg" alt="" />
-                            <div className="menu_name">추천메뉴</div>
-                            <div className="price">가격</div>
-                        </div>
-                        <div className="menu">
-                            <img src="img/pizza1.jpg" alt="" />
-                            <div className="menu_name">추천메뉴</div>
-                            <div className="price">가격</div>
-                        </div>
-                        <div className="menu">
-                            <img src="img/pizza2.jpg" alt="" />
-                            <div className="menu_name">추천메뉴</div>
-                            <div className="price">가격</div>
+                <div className="wrapper">
+                    <div className="txtWrap">
+                        <div className="text">
+                            어떤 메뉴를 고르시겠습니까?
+                            <br />
+                            메뉴를 선택해주세요.
                         </div>
                     </div>
-                    <div className="menu_scroll">
+                    <div className="menuWrap">
                         <div className="menu">
-                            <img src="img/skewer.jpg" alt="" />
-                            <div className="menu_name">추천메뉴</div>
-                            <div className="price">가격</div>
+                            <img src="pictures.png" alt="" />
+                            <div className="menu_name">카테고리</div>
                         </div>
                         <div className="menu">
-                            <img src="img/sushi.jpg" alt="" />
-                            <div className="menu_name">추천메뉴</div>
-                            <div className="price">가격</div>
+                            <img src="pictures.png" alt="" />
+                            <div className="menu_name">카테고리</div>
                         </div>
                         <div className="menu">
-                            <img src="img/taco.jpg" alt="" />
-                            <div className="menu_name">추천메뉴</div>
-                            <div className="price">가격</div>
+                            <img src="pictures.png" alt="" />
+                            <div className="menu_name">카테고리</div>
+                        </div>
+                        <div className="menu">
+                            <img src="pictures.png" alt="" />
+                            <div className="menu_name">카테고리</div>
                         </div>
                     </div>
-                </div>
-
-                {/* 이미지 누르면 버튼처럼 작용 */}
-                {/* 페이지 번호 수정 */}
-                <div className="pageControl">
-                    <button className="button arrow">
-                        <img src="left.png" alt="leftArrow" className="btnImg" />
-                    </button>
-                    <div className="pageNum">
-                        1
-                    </div>
-                    <button className="button arrow">
-                        <img src="right.png" alt="rightArrow" className="btnImg" />
-                    </button>
-                </div>
-            </div>
-            
-            <div className="footer">
-                <div className="bottomWrap">
-                    <button className="cartBtn">
-                        장바구니
-                    </button>
-                    <button className="orderBtn">
-                        주문하기
-                    </button>
                 </div>
             </div>
         </div>

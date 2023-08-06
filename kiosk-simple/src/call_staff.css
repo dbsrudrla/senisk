@@ -1,0 +1,13 @@
+/* payment */
+.callWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotateArrow > img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+}

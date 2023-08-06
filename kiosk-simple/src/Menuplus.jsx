@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Page4() {
+function Menuplus() {
 
     return (
         <div className="page">
@@ -22,9 +22,9 @@ function Page4() {
                 <div className="wrapper">
                     <div className="txtWrap">
                         <div className="text text_big">
-                            추가 옵션을 
+                            메뉴를
                             <br />
-                            선택하시겠습니까?
+                            추가하시겠습니까?
                         </div>
                     </div>
                     <div className="btnWrap">
@@ -41,4 +41,4 @@ function Page4() {
     )
 };
 
-export default Page4;
+export default Menuplus;
