@@ -13,11 +13,12 @@ import Page12 from "./Page12";
 import Page13 from "./Page13";
 import Call_staff from "./Call_staff";
 import Menuplus from "./Menuplus";
+import Scanbarcode from "./Scanbarcode";
 
 function App() {
   return (
     <div>
-      <Menuplus />
+      <Scanbarcode />
     </div>
   )
 }

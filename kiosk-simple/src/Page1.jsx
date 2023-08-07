@@ -28,11 +28,13 @@ function Page1() {
                 </div>
             </div>
             <div className="footer">
-                <button className="button callBtn">
-                    직원 호출
-                </button>
-                <div>
-                    직원의 도움을 받아보세요!
+                <div className="callWrap ">
+                    <button className="button callBtn">
+                        직원 호출
+                    </button>
+                    <div className="callTxt">
+                        직원의 도움을 받아보세요!
+                    </div>
                 </div>
             </div>
         </div>

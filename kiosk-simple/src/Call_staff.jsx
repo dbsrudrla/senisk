@@ -19,7 +19,7 @@ function Call_staff() {
             </div>
 
             <div className="body">
-                <div className="callWrap">
+                <div className="callWrap call">
                     <div className="callTxt">
                         <div className="text">
                             직원이 도우러 오는 중이에요.

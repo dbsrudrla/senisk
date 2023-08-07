@@ -41,7 +41,7 @@ function Page7() {
                 </div>
             </div>
             <div className="footer">
-                <div>
+                <div className="okWrap">
                     <button className="button okBtn">
                         확인
                     </button>
